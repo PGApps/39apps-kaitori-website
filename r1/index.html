@@ -3,8 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>KAITORI</title>
+  <script type="text/javascript">
+    var ua = navigator.userAgent;
+    if (ua.indexOf("iPhone") != -1 || ua.indexOf("iPad") != -1 || ua.indexOf("iPod") != -1) {
+      window.location.href = "https://itunes.apple.com/jp/app/zhong-gu-chepatsu10fende-wu/id1124772311";
+    } else if (ua.indexOf("Android") != -1) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.pg_applications.x39apps.kaitori";
+    } else {
+      window.location.href = "http://kaitori.39apps.com";
+    }
+  </script>
 </head>
 <body>
-	<h1>ドリテン用リダイレクト</h1>
+	<h1>少々お待ち下さい</h1>
 </body>
 </html>
