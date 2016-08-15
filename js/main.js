@@ -131,7 +131,7 @@ jQuery(function ($) {
 		$('.logo-link').attr('href', 'https://itunes.apple.com/jp/app/zhong-gu-chepatsu10fende-wu/id1124772311?ls=1&mt=8');
 	}
 	else {
-		$('.nav-download').attr('href', '#home-section');
+		$('.nav-download').attr('href', 'https://itunes.apple.com/jp/app/zhong-gu-chepatsu10fende-wu/id1124772311?ls=1&mt=8');
 		$('.logo-link').contents().unwrap();
 	}
 
